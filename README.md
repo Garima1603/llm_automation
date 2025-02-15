@@ -20,7 +20,7 @@ export AIPROXY_TOKEN=your_token_here
 ### Running the Agent
 Execute the following Docker command to start the automation agent:
 ```bash
-docker run -e AIPROXY_TOKEN=$AIPROXY_TOKEN -p 8000:8000 garriimaa/llm_automation:v1
+docker run -e AIPROXY_TOKEN=$AIPROXY_TOKEN -p 8000:8000 garriimaa/llm_automation
 ```
 
 This command will:
@@ -38,8 +38,7 @@ http://localhost:8000
 ## Configuration
 The service uses the following default configurations:
 - Port: 8000
-- API Version: v1
-- Container Image: garriimaa/llm_automation:v1
+- Container Image: garriimaa/llm_automation
 
 
 ## License
